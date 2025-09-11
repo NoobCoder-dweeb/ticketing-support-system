@@ -217,4 +217,7 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Lock files
+*.lock
 >>>>>>> 7de01c2 (First commit)
