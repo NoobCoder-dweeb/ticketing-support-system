@@ -217,4 +217,14 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Lock files
+*.lock
+
+.env
+pycache/
+*.pyc
+logs/
+.venv/
+.idea/
 >>>>>>> 7de01c2 (First commit)
