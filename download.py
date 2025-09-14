@@ -17,10 +17,6 @@ def get_hf_model(ver: str):
     except:
         logger.error("Error downloading HuggingFace model")
 
-def main():
-    print("Hello from ticketing-support-system!")
-
-
 if __name__ == "__main__":
-    main()
+    print("Downloading the model!")
     get_hf_model("0.3")
