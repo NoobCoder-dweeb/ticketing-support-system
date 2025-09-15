@@ -2,7 +2,6 @@ from pathlib import Path
 from src.utils.logger import logger
 from huggingface_hub import snapshot_download
 import chromadb
-from llama_index.readers.file import PyMuPDFReader
 from llama_index.vector_stores.chroma import ChromaVectorStore
 from llama_index.core import SimpleDirectoryReader, StorageContext, VectorStoreIndex
 from sentence_transformers import SentenceTransformer
